@@ -11,11 +11,13 @@ namespace GuessGame
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            Console.WriteLine("Welcome to 'GUESSGAME'!");
-            Console.WriteLine("The Rules are simple. Guess the creater's number");
+            Console.WriteLine("Welcome to 'GUESS GAME'!");
+            Console.WriteLine("The Rules are simple. Guess the creater's number.");
+            Console.WriteLine("Oh and you only have 10 Trials.");
             Console.WriteLine("Tip: its between 0 and 1000. Good luck");
             while (true)
             {
+                Console.WriteLine("Please Enter a number or quit.");
                 string input = Console.ReadLine();
                 switch (input)
                 {
